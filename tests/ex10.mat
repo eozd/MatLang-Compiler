@@ -1,0 +1,8 @@
+matrix a[2, 3]
+matrix b[3, 6]
+matrix c[3, 6]
+scalar i
+scalar j
+
+print(i * a + a*b*j + a*b*tr(c))
+print(i * a + a*b*j + a*b*c)
